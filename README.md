@@ -36,6 +36,8 @@ ENTRYPOINT ["java","-jar","/app.jar"]
 * check if your image created by  ``` docker images ```
 * Run your image by ``` docker run -p 8080:8080 springio/gs-spring-boot-docker ```
 * Your docker image is running :)
+* Go to localhost:8080 to access it
+* To stop use  ``` docker stop image_name/image_id ```
 
 
 P.S - Markdown cheat code https://wordpress.com/support/markdown-quick-reference/
